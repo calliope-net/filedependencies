@@ -12,7 +12,8 @@
         "block1.ts",
         "block2.ts",
         "block4.ts",
-        "storage.ts"
+        "storage.ts",
+        "storage.cpp"
     ],
     "testFiles": [
         "test.ts"
