@@ -1,0 +1,34 @@
+{
+    "name": "fileDependencies",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "block1.ts",
+        "block2.ts",
+        "block4.ts",
+        "storage.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "fileDependencies": {
+        "block1.ts": "v1",
+        "block2.ts": "radio",
+        "storage.ts": "v3",
+        "block4.ts": "!v3"
+    },
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
