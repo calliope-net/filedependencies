@@ -23,6 +23,10 @@
     "fileDependencies": {
         "block1.ts": "v1",
         "block2.ts": "radio",
+        "storage.ts": "v3|v2|v1",
+        "storage.cpp": "v3|v2|v1",
+        "shims.d.ts": "v3|v2|v1",
+        "enums.d.ts": "v3|v2|v1",
         "block4.ts": "!v3"
     },
     "targetVersions": {
@@ -32,5 +36,5 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
