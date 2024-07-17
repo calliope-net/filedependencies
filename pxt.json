@@ -14,7 +14,8 @@
         "block4.ts",
         "storage.ts",
         "storage.cpp",
-        "shims.d.ts"
+        "shims.d.ts",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -22,7 +23,6 @@
     "fileDependencies": {
         "block1.ts": "v1",
         "block2.ts": "radio",
-        "storage.ts": "v3",
         "block4.ts": "!v3"
     },
     "targetVersions": {
